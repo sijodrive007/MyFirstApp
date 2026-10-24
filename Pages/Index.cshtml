@@ -1,10 +1,16 @@
-﻿@page
+﻿
+@page
 @model IndexModel
+
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "My Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome SKJ 01OCT2026</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container mt-5 text-center">
+    <h1>Welcome SKJ!</h1>
+    <p class="lead">My first ASP.NET Core Razor Pages website.</p>
+    <button class="btn btn-primary"
+            onclick="alert('Welcome to my website!')">
+        Click Me
+    </button>
 </div>
